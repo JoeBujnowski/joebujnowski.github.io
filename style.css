@@ -1,0 +1,203 @@
+body {
+  background-image: url(file:///Users/student/Desktop/Assets/background%20img/HD-Halo-Reach-Background.jpg);
+  background-repeat: no-repeat;
+}
+.covDestroyer {
+  position: absolute;
+  height: 120px;
+  width: 240px;
+  z-index: -10;
+  -webkit-animation: cdmove 30s linear infinite;
+  -moz-animation: cdmove 30s linear infinite;
+  animation: cdmove 30s linear infinite;
+}
+/* animating target covDestroyer */
+@-moz-keyframes cdmove {
+  0% { left: 100%; right: 0%; top: 0%; }
+  100% { left: 0%; right: 100%; top: 0%; }
+}
+@-webkit-keyframes cdmove {
+  0% { left: 100%; right: 0%; top: 0%; }
+  100% { left: 0%; right: 100%; top: 0%; }
+}
+@keyframes cdmove {
+  0% { left: 100%; right: 0%; top: 0%; }
+  100% { left: 0%; right: 100%; top: 0%; }
+}
+.grunt {
+  z-index: 500;
+  position: absolute;
+  height: 90px;
+  width: 90px;
+  top: 215px;
+  left: 290px;
+  -webkit-animation: gmove 5s linear infinite alternate;
+  -moz-animation: gmove 5s linear infinite alternate;
+  animation: gmove 5s linear infinite alternate;
+}
+/* animating target grunt */
+@-moz-keyframes gmove {
+  0% { top: 65%; bottom: 50%; }
+  25% { top: 50%; bottom: 50%; }
+  75% { top: 65%; bottom: 50%; }
+  100% { top: 55%; bottom: 50%; }
+}
+@-webkit-keyframes gmove {
+  0% { top: 65%; bottom: 50%; }
+  25% { top: 50%; bottom: 50%; }
+  75% { top: 65%; bottom: 50%; }
+  100% { top: 55%; bottom: 50%; }
+}
+@keyframes gmove {
+  0% { top: 40%; bottom: 40%; }
+  25% { top: 65%; bottom: 50%; }
+  75% { top: 50%; bottom: 50%; }
+  100% { top: 65%; bottom: 50%; }
+}
+.ghost {
+  position: absolute;
+  height: 110px;
+  width: 110px;
+  top: 210px;
+  left: 300px;
+  z-index:0;
+}
+.eliteassassin {
+  z-index: 0;
+  position: absolute;
+  height: 450px;
+  width: 405px;
+  left: 300px;
+  top: 280px;
+}
+
+.eliteassassinBig{
+  z-index: 0;
+  position: absolute;
+  z-index: 0;
+  position: absolute;
+  left: 300px;
+  top: 280px;
+  -webkit-animation: grow 2s linear normal forwards;
+  -moz-animation: grow 2s linear normal forwards;
+  animation: grow 2s linear normal forwards;
+}
+/* animating target drone */
+@-moz-keyframes grow {
+  0% { height: 450px; width: 405px; top: 280px;}
+  100% { height: 1350px; width: 1215px; top: 0px;}
+}
+@-webkit-keyframes grow {
+  0% { height: 450px; width: 405px; top: 280px;}
+  100% { height: 1350px; width: 1215px; top: 0px;}
+}
+@keyframes grow {
+  0% { height: 450px; width: 405px; top: 280px}
+  100% { height: 1350px; width: 1215px; top:0px;}
+}
+.jackalsniper {
+  z-index: 0;
+  position: absolute;
+  height: 160px;
+  width: 160px;
+  top: 42px;
+}
+.jackalShield {
+  z-index: 0;
+  position: absolute;
+  height: 160px;
+  width: 160px;
+  top: 320px;
+  left: 700px;
+}
+.phaeton {
+
+}
+.spartanCharge {
+  z-index: 0;
+  position: absolute;
+  height: 90px;
+  width: 90px;
+  top: 200px;
+  left: 170px;
+}
+.spartanLocke {
+  z-index: 0;
+  position: absolute;
+  height: 200px;
+  width: 200px;
+  top: 262px;
+  left: 85px;
+}
+.spartan {
+  z-index: 0;
+  position: absolute;
+  height: 90px;
+  width: 70px;
+  top: 300px;
+  left: 590px;
+}
+.spartan2 {
+  z-index: 0;
+  position: absolute;
+  height: 85px;
+  width: 70px;
+  top: 305px;
+  left: 620px;
+}
+
+.drone {
+  z-index: 0;
+  position: absolute;
+  height: 85px;
+  width: 70px;
+  top: 305px;
+  right: 15%;
+  -webkit-animation: dmove 18s linear infinite alternate;
+  -moz-animation: dmove 18s linear infinite alternate;
+  animation: dmove 18s linear infinite alternate;
+}
+/* animating target drone */
+@-moz-keyframes dmove {
+  0% { right: 0%; top: 15%; }
+  /* 25% { right: 0%; top: 0%; }
+  50% { right: 0%; top: 0%; }
+  75% { right: 0%; top: 0%; } */
+  100% { right: 100%; top:15%; }
+}
+@-webkit-keyframes dmove {
+  0% { right: 0%;  top: 15%; }
+  /* 25% { right: 0%; top: 0%; }
+  50% { right: 0%; top: 0%; }
+  75% { right: 0%; top: 0%; } */
+  100% { right: 100%;  top: 15%; }
+}
+@keyframes dmove {
+  0% { right: 0%;  top: 15%; }
+  /* 25% { right: 0%; top: 0%; }
+  50% { right: 0%; top: 0%; }
+  75% { right: 0%; top: 0%; } */
+  100% { right: 100%; top: 15%; }
+}
+header {
+  text-align: center;
+  font-size: 50px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  color: red;
+  border: 10px ridge green;
+  border-width: 15px;
+  margin: 0px auto;
+  margin-top: 50px;
+  padding-bottom: 20px;
+  width: 75%;
+  height: 60px;
+}
+h1 {
+  text-align: center;
+  font-size: 25px;
+  margin-top: 15%;
+  color: red;
+}
+h1 a:visited {
+  color:red;
+}
